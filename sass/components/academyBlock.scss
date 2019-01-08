@@ -1,0 +1,146 @@
+@import "../variables";
+
+.academyBlock{
+  padding: 160px 0 140px 0;
+  background: url("../img/academyBlockBg.png") no-repeat top;
+  .academyBlock__info{
+    display: inline-block;
+    max-width: 500px;
+    .academyBlock__topic{
+      margin: 0 0 35px 0;
+    }
+    .academyBlock__academyLogo{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      background: url("../img/icons/academyLogo.png") no-repeat center;
+      background-size: contain;
+    }
+    .academyBlock__heading{
+      margin: 0 0 40px 20px;
+      display: inline-block;
+    }
+    .academyBlock__subtitle{
+      margin: 0 0 45px 0;
+      max-width: 400px;
+    }
+  }
+  .academyBlock__carouselWrapper{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    vertical-align: top;
+    min-height: 415px;
+    margin: 0 0 0 100px;
+    .academyBlock__carousel{
+      display: inline-block;
+      width: 420px;
+      height: 360px;
+      vertical-align: top;
+      border: 1px solid $lightGrayVioletColor;
+      text-align: left;
+      padding: 35px;
+      .academyBlock__carouselIndicators{
+        bottom: -70px;
+        .academyBlock__carouselIndicatorsItem{
+          background: $lightGrayVioletColor;
+          width: 9px;
+          height: 9px;
+          border-radius: 100%;
+          margin: 0 5px 0 0;
+          border: none;
+          &.active{
+            background: $mainBrightPurpleColor;
+          }
+        }
+      }
+      .academyBlock__carouselList{
+        height: 100%;
+        .academyBlock__carouselItem{
+          height: 100%;
+          position: relative;
+          .academyBlock__reviewAuthor {
+            margin: 0;
+            &:after {
+              content: '';
+              vertical-align: middle;
+              display: inline-block;
+              height: 100%;
+            }
+            .academyBlock__reviewAuthorImg {
+              display: inline-block;
+              height: 40px;
+              width: 40px;
+              vertical-align: middle;
+              background-repeat: no-repeat;
+              background-position: center;
+              border-radius: 100%;
+              background-size: cover;
+            }
+            .academyBlock__reviewAuthorName {
+              display: inline-block;
+              vertical-align: middle;
+              padding: 0 0 0 10px;
+              color: $mainMediumPurpleColor;
+            }
+          }
+          .academyBlock__reviewTraining{
+            position: absolute;
+            bottom: 0;
+          }
+        }
+        .academyBlock__reviewText{
+          margin: 55px 0 0 0;
+          color: $mainMediumPurpleColor;
+          font-size: 20px;
+        }
+        .academyBlock__reviewTraining{
+          font-size: 11px;
+          font-family: poppinsRegular, sans-serif;
+          .academyBlock__reviewTrainingTitle{
+            color: $mainBrightPurpleColor;
+          }
+          .academyBlock__reviewTrainingBranch{
+            color: $mainDarkPurpleColor;
+          }
+        }
+      }
+      .academyBlock__carouselControl{
+        width: 50px;
+        height: 50px;
+        background: $mainMediumPurpleColor;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 100%;
+        opacity: 1;
+        .academyBlock__carouselPrevIc, .academyBlock__carouselNextIc{
+          margin: 0;
+          top: 50%;
+          left: 50%;
+          right: 0;
+          bottom: 0;
+          transform: translate(-50%,-50%);
+          width: 17px;
+          height: 17px;
+          background: url("../img/icons/arrowPrevNext.png") no-repeat;
+          background-size: auto 100%;
+          &:before{
+            content: none;
+          }
+        }
+        .academyBlock__carouselPrevIc{
+          background-position: 0 0;
+        }
+        .academyBlock__carouselNextIc{
+          background-position: -13px 0;
+        }
+      }
+      .academyBlock__carouselControl.left{
+        left: -90px;
+      }
+      .academyBlock__carouselControl.right{
+        right: -90px;
+      }
+    }
+  }
+}

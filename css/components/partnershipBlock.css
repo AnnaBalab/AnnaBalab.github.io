@@ -1,0 +1,53 @@
+.partnershipBlock {
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+
+.partnershipBlock__partnersBlock {
+  margin: 120px 0 0 0;
+  display: inline-block;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock {
+  display: inline-block;
+  width: 25%;
+  height: 450px;
+  float: left;
+  padding: 15px;
+  border: 1px solid #E1DCE7;
+  border-right: 0;
+  text-align: center;
+  position: relative;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock:nth-child(4n+4) {
+  border-right: 1px solid #E1DCE7;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock .partnershipBlock__partnerImage {
+  height: 160px;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock .partnershipBlock__partnerHeading {
+  color: #43296C;
+  font-family: poppinsMedium, sans-serif;
+  margin: 30px 0 0 0;
+  line-height: 1.25;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock .partnershipBlock__partnerText {
+  margin: 35px 0;
+  font-family: poppinsLight, sans-serif;
+  font-size: 14px;
+  color: #878c96;
+  line-height: 1.6;
+}
+
+.partnershipBlock__partnersBlock .partnershipBlock__partnerBlock .partnershipBlock__moreButton {
+  width: 150px;
+  height: 45px;
+}

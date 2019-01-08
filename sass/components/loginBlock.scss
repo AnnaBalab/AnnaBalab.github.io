@@ -1,0 +1,63 @@
+@import "../variables";
+
+.loginBlockWrapper{
+  min-height: 600px;
+  background: url("../img/loginBlockBg.png") no-repeat center, #472877;
+  //background: url("../img/loginBlockBg1.png") no-repeat center, #472877;
+  .loginBlock{
+    height: 100%;
+    .loginBlock__infoBlock{
+      width: 520px;
+      height: 100%;
+      padding: 80px 0;
+      .loginBlock__topic{
+        color: white;
+      }
+      .loginBlock__heading{
+        color: white;
+        margin: 25px 0 0 0;
+      }
+      .loginBlock__text{
+        color: white;
+        margin: 35px 0 0 0;
+      }
+      .loginBlock__functionsBlock{
+        color: white;
+        margin: 45px 0 0 0;
+        .loginBlock__function{
+          display: inline-block;
+          width: 255px;
+          padding: 0 20px 0 0;
+          margin: 0 0 30px;
+          &:after{
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+          }
+          .loginBlock__functionImg{
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin: 0 15px 0 0;
+          }
+          .loginBlock__functionTitle{
+            font-family: poppinsMedium, sans-serif;
+            vertical-align: middle;
+            font-size: 15px;
+          }
+        }
+      }
+      .loginBlock__loginButton{
+        width: 185px;
+        height: 45px;
+        background: transparent;
+        border: 2px solid white;
+        margin: 30px 0 0;
+      }
+    }
+  }
+}

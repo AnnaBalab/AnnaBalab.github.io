@@ -1,0 +1,172 @@
+.academyBlock {
+  padding: 160px 0 140px 0;
+  background: url("../img/academyBlockBg.png") no-repeat top;
+}
+
+.academyBlock .academyBlock__info {
+  display: inline-block;
+  max-width: 500px;
+}
+
+.academyBlock .academyBlock__info .academyBlock__topic {
+  margin: 0 0 35px 0;
+}
+
+.academyBlock .academyBlock__info .academyBlock__academyLogo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url("../img/icons/academyLogo.png") no-repeat center;
+  background-size: contain;
+}
+
+.academyBlock .academyBlock__info .academyBlock__heading {
+  margin: 0 0 40px 20px;
+  display: inline-block;
+}
+
+.academyBlock .academyBlock__info .academyBlock__subtitle {
+  margin: 0 0 45px 0;
+  max-width: 400px;
+}
+
+.academyBlock .academyBlock__carouselWrapper {
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  vertical-align: top;
+  min-height: 415px;
+  margin: 0 0 0 100px;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel {
+  display: inline-block;
+  width: 420px;
+  height: 360px;
+  vertical-align: top;
+  border: 1px solid #E1DCE7;
+  text-align: left;
+  padding: 35px;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselIndicators {
+  bottom: -70px;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselIndicators .academyBlock__carouselIndicatorsItem {
+  background: #E1DCE7;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  margin: 0 5px 0 0;
+  border: none;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselIndicators .academyBlock__carouselIndicatorsItem.active {
+  background: #7650B2;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList {
+  height: 100%;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem {
+  height: 100%;
+  position: relative;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem .academyBlock__reviewAuthor {
+  margin: 0;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem .academyBlock__reviewAuthor:after {
+  content: '';
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem .academyBlock__reviewAuthor .academyBlock__reviewAuthorImg {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem .academyBlock__reviewAuthor .academyBlock__reviewAuthorName {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 0 10px;
+  color: #5F2E8F;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__carouselItem .academyBlock__reviewTraining {
+  position: absolute;
+  bottom: 0;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__reviewText {
+  margin: 55px 0 0 0;
+  color: #5F2E8F;
+  font-size: 20px;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__reviewTraining {
+  font-size: 11px;
+  font-family: poppinsRegular, sans-serif;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__reviewTraining .academyBlock__reviewTrainingTitle {
+  color: #7650B2;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselList .academyBlock__reviewTraining .academyBlock__reviewTrainingBranch {
+  color: #43296C;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl {
+  width: 50px;
+  height: 50px;
+  background: #5F2E8F;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselPrevIc, .academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselNextIc {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  width: 17px;
+  height: 17px;
+  background: url("../img/icons/arrowPrevNext.png") no-repeat;
+  background-size: auto 100%;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselPrevIc:before, .academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselNextIc:before {
+  content: none;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselPrevIc {
+  background-position: 0 0;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl .academyBlock__carouselNextIc {
+  background-position: -13px 0;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl.left {
+  left: -90px;
+}
+
+.academyBlock .academyBlock__carouselWrapper .academyBlock__carousel .academyBlock__carouselControl.right {
+  right: -90px;
+}

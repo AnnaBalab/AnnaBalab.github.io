@@ -1,0 +1,166 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 670px;
+  width: 100%;
+}
+
+.footer .footer__navBar {
+  padding: 90px 0 35px;
+  height: 455px;
+  border-bottom: 1px solid #E1DCE7;
+}
+
+.footer .footer__navBar .footer__navBarColumn {
+  width: 240px;
+  height: 100%;
+  margin-right: 30px;
+  display: inline-block;
+  float: left;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper {
+  min-height: 155px;
+  margin: 0 0 40px;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper:last-child {
+  margin: 0;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__navCategoryHeading {
+  font-size: 14px;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__navCategoryList {
+  margin: 25px 0 0;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__navCategoryList .footer__navCategoryLink {
+  font-size: 13px;
+  font-family: poppinsRegular,sans-serif;
+  display: inline-block;
+  width: 100%;
+  color: #43296C;
+  line-height: 2.2;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__navCategoryText {
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__numberWrapper:after {
+  content: '';
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__numberWrapper .footer__numberIc {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.footer .footer__navBar .footer__navBarColumn .footer__navCategoryWrapper .footer__numberWrapper .footer__number {
+  display: inline-block;
+  font-family: poppinsMedium,sans-serif;
+  font-size: 18px;
+  color: #43296C;
+  vertical-align: middle;
+}
+
+.footer .footer__infoCompany {
+  width: 690px;
+  display: inline-block;
+  float: left;
+  margin: 0 100px 0 0;
+}
+
+.footer .footer__infoCompany .footer__infoCompanyLine {
+  margin: 35px 0 0;
+}
+
+.footer .footer__infoCompany .footer__infoCompanyLine:after {
+  display: inline-block;
+  content: '';
+  height: 100%;
+  vertical-align: middle;
+}
+
+.footer .footer__infoCompany .footer__infoCompanyLine .footer__logo {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  background: url("../img/icons/footerLogo.svg") no-repeat center;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.footer .footer__infoCompany .footer__infoCompanyLine .footer__copyrightText {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: poppinsMedium,sans-serif;
+  color: #43296C;
+}
+
+.footer .footer__infoCompany .footer__infoCompanyLine .footer__infoCompanyText {
+  font-size: 10px;
+}
+
+.footer .footer__newsletterBlock {
+  width: 350px;
+  display: inline-block;
+  float: left;
+}
+
+.footer .footer__newsletterBlock .footer__newsletterHeading {
+  margin: 40px 0 0;
+  font-size: 14px;
+}
+
+.footer .footer__newsletterBlock .footer__newsletterFormWrapper {
+  margin: 35px 0;
+  width: 350px;
+  position: relative;
+}
+
+.footer .footer__newsletterBlock .footer__newsletterFormWrapper .footer__emailInput {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #E1DCE7;
+  border-radius: 20px;
+  padding: 0 0 0 23px;
+  font-family: poppinsLight, sans-serif;
+  font-size: 13px;
+  color: #878c96;
+  outline: none;
+}
+
+.footer .footer__newsletterBlock .footer__newsletterFormWrapper .footer__emailSend {
+  position: absolute;
+  right: 5px;
+  width: 100px;
+  border: none;
+  height: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+}
+
+.footer .footer__newsletterBlock .footer__privacyPolicyText {
+  font-size: 10px;
+}
+
+.footer .footer__newsletterBlock .footer__privacyPolicyText .footer__privacyPolicyLink {
+  cursor: pointer;
+  color: #5F2E8F;
+}
