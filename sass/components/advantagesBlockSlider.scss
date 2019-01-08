@@ -2,7 +2,7 @@
 @import "../variables";
 
 .advantagesBlockSlider{
-	margin: 40px;
+	margin: 40px auto;
 	display: none;
 	width: 300px;
 	//background: url(../img/advantagesBgNoResizingBlock1.png) right center no-repeat;
@@ -12,7 +12,7 @@
 	border-color: #E1DCE7;
 	border-style: solid;
 	box-sizing: content-box;
-
+	table-layout: fixed;
 }
 /*.advantagesBlockSlider:before, .advantagesBlockSlider:after{
 	content: '';
@@ -218,7 +218,6 @@
 @include media-breakpoint-down(xs) {
 	.advantagesBlockSlider{
 		max-width: 80%;
-		margin: 40px 10%;
 		.advantagesBlockSlider__tabsSwitch{
 			width: 10%;
 			&.advantagesBlockSlider__tabsSwitchPrev{
@@ -232,7 +231,7 @@
 }
 @include media-breakpoint-down(sm) {
 	.advantagesBlockSlider{
-		display: inline-block !important;
+		display: table !important;
 	}
 }
 @include media-breakpoint-down(md) {

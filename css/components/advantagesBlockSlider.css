@@ -8502,7 +8502,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .advantagesBlockSlider {
-  margin: 40px;
+  margin: 40px auto;
   display: none;
   width: 300px;
   text-align: center;
@@ -8511,6 +8511,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: #E1DCE7;
   border-style: solid;
   box-sizing: content-box;
+  table-layout: fixed;
 }
 
 /*.advantagesBlockSlider:before, .advantagesBlockSlider:after{
@@ -8713,7 +8714,6 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 575.98px) {
   .advantagesBlockSlider {
     max-width: 80%;
-    margin: 40px 10%;
   }
   .advantagesBlockSlider .advantagesBlockSlider__tabsSwitch {
     width: 10%;
@@ -8728,6 +8728,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 767.98px) {
   .advantagesBlockSlider {
-    display: inline-block !important;
+    display: table !important;
   }
 }
