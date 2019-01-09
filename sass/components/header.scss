@@ -343,6 +343,7 @@
         right: auto;
         bottom: auto;
         margin: 0!important;
+        width: max-content;
         .header__carouselIndicatorsItem{
           color: $mainMediumGreyColor;
           font-size: 12px;
@@ -439,7 +440,7 @@
     .header__carouselList{
       height: 100%;
       .header__carouselItem{
-        padding: 60px 0 0 60px;
+        padding: 60px 10px 0 60px;
         height: 100%;
         &:after{
           display: inline-block;
@@ -456,7 +457,7 @@
         .header__carouselItemAboutProductsBlock{
           display: inline-block;
           vertical-align: middle;
-          margin: 20px 0 20px 3%;
+          margin: 20px 0 20px 10px;
           max-width: 320px;
           .header__carouselTitle{
             font-size: 10px;
@@ -568,7 +569,21 @@
 
 
 @include media-breakpoint-down(xs) {
-
+  .header__bakeryProductsButton, .header__confectioneryProductsButton{
+    margin-top: 65px;
+    display: inline-block;
+    width: 190px !important;
+    height: 45px !important;
+    text-align: center;
+    border-radius: 55px;
+    background: #5F2E8F;
+    color: white;
+    font-size: 10px !important;
+    font-family: poppinsSemiBold, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
 }
 @include media-breakpoint-down(sm) {
   .header{

@@ -131,3 +131,8 @@
   color: $mainMediumGreyColor;
   line-height: 1.6;
 }
+@include media-breakpoint-down(xs) {
+  .blockHeading{
+    font-size: 26px !important;
+  }
+}

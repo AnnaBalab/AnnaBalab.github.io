@@ -19077,6 +19077,7 @@ a.text-dark:hover, a.text-dark:focus {
   right: auto;
   bottom: auto;
   margin: 0 !important;
+  width: max-content;
 }
 
 .header__carouselWrapper .header__carousel .header__carouselIndicatorsWrapper .header__carouselIndicators .header__carouselIndicatorsItem {
@@ -19185,7 +19186,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header__carouselWrapper .header__carousel .header__carouselList .header__carouselItem {
-  padding: 60px 0 0 60px;
+  padding: 60px 10px 0 60px;
   height: 100%;
 }
 
@@ -19207,7 +19208,7 @@ a.text-dark:hover, a.text-dark:focus {
 .header__carouselWrapper .header__carousel .header__carouselList .header__carouselItem .header__carouselItemAboutProductsBlock {
   display: inline-block;
   vertical-align: middle;
-  margin: 20px 0 20px 3%;
+  margin: 20px 0 20px 10px;
   max-width: 320px;
 }
 
@@ -19315,6 +19316,24 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* GENERAL STYLES */
+@media (max-width: 575.98px) {
+  .header__bakeryProductsButton, .header__confectioneryProductsButton {
+    margin-top: 65px;
+    display: inline-block;
+    width: 190px !important;
+    height: 45px !important;
+    text-align: center;
+    border-radius: 55px;
+    background: #5F2E8F;
+    color: white;
+    font-size: 10px !important;
+    font-family: poppinsSemiBold, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 767.98px) {
   .header {
     background: none;
@@ -58574,4 +58593,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px;
   color: #878c96;
   line-height: 1.6;
+}
+
+@media (max-width: 575.98px) {
+  .blockHeading {
+    font-size: 26px !important;
+  }
 }

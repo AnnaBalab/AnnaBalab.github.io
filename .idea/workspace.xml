@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="246" column="14" lean-forward="true" selection-start-line="246" selection-start-column="14" selection-end-line="246" selection-end-column="14" />
+            <state relative-caret-position="368">
+              <caret line="211" column="118" selection-start-line="211" selection-start-column="118" selection-end-line="211" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/components/ourStoryBlock.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="138">
+              <caret line="132" column="1" selection-start-line="130" selection-end-line="132" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -43,26 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state relative-caret-position="430">
+              <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/components/advantagesNavBlock.scss">
+        <entry file="file://$PROJECT_DIR$/sass/components/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/components/advantagesBlock.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="580" column="17" selection-start-line="580" selection-start-column="17" selection-end-line="580" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -70,17 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
-              <caret line="92" selection-start-line="92" selection-end-line="107" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="68" selection-end-line="242" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="135" column="31" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -122,16 +113,16 @@
         <option value="$PROJECT_DIR$/sass/components/contactsBlock.scss" />
         <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/sass/components/footer.scss" />
-        <option value="$PROJECT_DIR$/sass/components/header.scss" />
         <option value="$PROJECT_DIR$/js/components/header.js" />
         <option value="$PROJECT_DIR$/sass/components/advantagesNavBlock.scss" />
         <option value="$PROJECT_DIR$/sass/components/style.scss" />
-        <option value="$PROJECT_DIR$/sass/common.scss" />
         <option value="$PROJECT_DIR$/sass/components/ourStoryBlock.scss" />
         <option value="$PROJECT_DIR$/sass/components/advantagesBlock.scss" />
         <option value="$PROJECT_DIR$/sass/components/advantagesBlockSlider.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/sass/components/header.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/common.scss" />
       </list>
     </option>
   </component>
@@ -285,12 +276,12 @@
       <workItem from="1545469053563" duration="4000" />
       <workItem from="1546598227818" duration="11528000" />
       <workItem from="1546937348446" duration="22814000" />
-      <workItem from="1547025664849" duration="14093000" />
+      <workItem from="1547025664849" duration="17027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540032000" />
+    <option name="totallyTimeSpent" value="542966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,13 +419,6 @@
     <entry file="file://$PROJECT_DIR$/layout/zeelandia-homepage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/style.scss" />
     <entry file="file://$PROJECT_DIR$/sass/components/advantagesNavBlock.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,31 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="92" selection-start-line="92" selection-end-line="107" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="16" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/ourStoryBlock.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -485,17 +448,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="68" selection-end-line="242" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        <state relative-caret-position="430">
+          <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="580" column="17" selection-start-line="580" selection-start-column="17" selection-end-line="580" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="246" column="14" lean-forward="true" selection-start-line="246" selection-start-column="14" selection-end-line="246" selection-end-column="14" />
+        <state relative-caret-position="368">
+          <caret line="211" column="118" selection-start-line="211" selection-start-column="118" selection-end-line="211" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/ourStoryBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="132" column="1" selection-start-line="130" selection-end-line="132" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="135" column="31" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
         </state>
       </provider>
     </entry>
